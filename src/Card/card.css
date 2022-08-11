@@ -1,0 +1,14 @@
+.new-section {
+  overflow: hidden;
+  color: gray;
+  text-align: left;
+  line-height: 1.6em;
+}
+.new-section::before {
+  display: block;
+  float: right;
+  margin-top: 0.7em;
+  border-top: 2px solid silver;
+  width: 78%;
+  content: "";
+}
